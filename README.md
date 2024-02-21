@@ -8,13 +8,13 @@ A proposal has been developed based on the training and prediction processes of 
 
 
 
-## Step 1: Preparing the Data Set
+## Step 1: Preparing the Data Set 👩‍🌾
 *** Surprise library must be downloaded for model selection
 !pip install surprise
 
 --> For dataset : https://grouplens.org/datasets/movielens/
 
-# Step 2: Modeling
+# Step 2: Modeling 💥
 
 --> This is the stage where the values of the test set are estimated using weights.
 
@@ -23,12 +23,12 @@ A proposal has been developed based on the training and prediction processes of 
 
 --> Some errors were detected regarding user actual values and predicted values
 
-# Adım 3: Model Tuning
+# Adım 3: Model Tuning 💣
 
 --> Optimizing the model used: Increases the prediction performance of the model
---> Hyper parameters optimized
+--> Hyper parameters optimized 🤖
 
-1) number of epochs
+1) number of epochs 
 2) learning rate
 
 --> As a result of the tuned parameters, the RMSE value is checked and if it decreases, continue.
@@ -37,7 +37,7 @@ A proposal has been developed based on the training and prediction processes of 
 
 
 **********
- MAE : actual values - average of squares of predicted values
+ Mean Absolute Error : actual values - average of squares of predicted values
  actual values - take the square root of the mean of the squares of the predicted values
  
 Perform 3-fold cross validation cross validation= 3 ,
@@ -50,7 +50,7 @@ n_jobs=-1 use processors with full performance
 
 joblib_verbose=True report while transactions are taking place
 
-# Step 4: Final Model and Prediction
+# Step 4: Final Model and Prediction 🎯
 
 The default parameters of the model were different, the ones we found are different, the model should be created using the new ones when creating the model.
 
